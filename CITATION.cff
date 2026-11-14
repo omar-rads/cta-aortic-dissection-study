@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Cite the repository and exact Git commit used for this analysis."
+title: "CTA for suspected acute aortic syndrome: R analysis code and legacy source"
+type: software
+version: "2026-11-14-review"
+authors:
+  - family-names: "Jean-Baptiste"
+    given-names: "Omar"
+repository-code: "https://github.com/omar-rads/cta-aortic-dissection-study"
+abstract: "R source code, published aggregate evidence and selected aggregate outputs for a retrospective study of emergency department CTA for suspected acute aortic syndrome. Historical SAS scripts and an earlier R checkpoint are retained for provenance. Patient-level data and private report-classification inputs are excluded."
+keywords:
+  - acute aortic syndrome
+  - computed tomography angiography
+  - ADD-RS
+  - D-dimer
+  - retrospective cohort
+  - cost-consequence analysis

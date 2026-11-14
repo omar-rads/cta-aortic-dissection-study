@@ -1,0 +1,23 @@
+{
+  "analysis_id": "report_alt_dx_v1",
+  "classification_status": "exploratory_secondary",
+  "endpoint_rule_version": "v1",
+  "model_alias": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "prompt_path": "prompts/report_alt_dx/v1/classifier_prompt.md",
+  "schema_path": "config/report_alt_dx_schema_v1.json",
+  "batch_size": 12,
+  "max_batch_characters": 85000,
+  "max_attempts": 3,
+  "concurrent_batches": 2,
+  "pass_2_shuffle_seed": 20260910,
+  "audit_sampling_seed": 20260909,
+  "audit_target_total": 60,
+  "audit_minimum_random_agreements": 10,
+  "audit_maximum_total": 80,
+  "accepted_endpoint_acuity": [
+    "acute",
+    "likely_acute",
+    "indeterminate"
+  ]
+}

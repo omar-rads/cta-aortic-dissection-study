@@ -1,0 +1,6 @@
+component,code,unit_value_dollars,model_multiplier,contribution_before_final_rounding,source,interpretation
+CT/CTA facility composite,APC 8006,444.56,1,444.56,OPPS January 2022 correction Addendum A,National unadjusted amount
+Abdomen/pelvis CTA professional component,74174-26,106.24,1,106.24,RVU22A PPRRVU22_JAN.csv,"3.07 RVUs multiplied by 34.6062, rounded to cents, GPCIs set to 1"
+Chest CTA professional component,71275-26,88.59,0.95,84.1605,RVU22A PPRRVU22_JAN.csv and CR9647,"2.56 RVUs multiplied by 34.6062, rounded to cents, GPCIs set to 1. The 5% reduction is a modeling assumption under the applicable eligibility conditions"
+Composite CTA modeled total,paired CTA,634.96,,634.9605,Sum of above three contributions,Round to 634.96 after summation
+Quantitative D-dimer,85379,10.18,1,10.18,CLAB2022Q1.csv,Standardized laboratory unit-cost proxy. OPPS status Q4. Not assumed separately payable under OPPS

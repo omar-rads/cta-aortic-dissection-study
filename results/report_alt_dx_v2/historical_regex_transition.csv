@@ -1,0 +1,7 @@
+"historical_regex","v2_pass1","n","generating_script"
+"negative","positive",43,"R/22_report_alt_dx_v2_handoff.R"
+"positive","positive",37,"R/22_report_alt_dx_v2_handoff.R"
+"negative","negative",514,"R/22_report_alt_dx_v2_handoff.R"
+"positive","negative",20,"R/22_report_alt_dx_v2_handoff.R"
+"negative","unclassifiable",354,"R/22_report_alt_dx_v2_handoff.R"
+"positive","unclassifiable",143,"R/22_report_alt_dx_v2_handoff.R"

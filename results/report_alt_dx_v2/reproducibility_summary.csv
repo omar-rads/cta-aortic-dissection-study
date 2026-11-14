@@ -1,0 +1,4 @@
+"metric","value","denominator","interpretation","generating_script"
+"Three-category unweighted Cohen kappa",0.858812044472878,,"Reproducibility, not accuracy or independent clinical validation","R/21_report_alt_dx_v2_finalize.R"
+"Endpoint disagreements",88,1111,"Reproducibility, not accuracy or independent clinical validation","R/21_report_alt_dx_v2_finalize.R"
+"Unclassifiable in either pass",539,1111,"Reproducibility, not accuracy or independent clinical validation","R/21_report_alt_dx_v2_finalize.R"

@@ -1,0 +1,2 @@
+"run_id","evidence_strategy","R_version","cmdstanr_version","posterior_version","cmdstan_version","chains","iter_warmup","iter_sampling","adapt_delta","max_treedepth","seed","source_data_sha256","bivariate_model_sha256","ren_validation_model_sha256"
+"option1_2026-09-19_v1","option1_conditional_bivariate","4.5.1","0.9.0","1.7.1","2.40.0",4,2000,4000,0.99,15,38905181,"e7c5c520bebe51ba5b22ef54c6fb5a0672858be4054cef0fc2039c492a0969db","ccdaf5cf2f85af8455d9a86e9217fe8899b35875e2bf81b4768ceb0ecf85adc1","d9bc906c8572dc040f04d741ba75411d9e14c8eacb14e2d068e25e2ecc68c853"

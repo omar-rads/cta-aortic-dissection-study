@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["classifications"],
+  "properties": {
+    "classifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["report_audit_id", "candidates"],
+        "properties": {
+          "report_audit_id": {"type": "string"},
+          "candidates": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "normalized_diagnosis",
+                "diagnostic_category",
+                "cta_component",
+                "finding_status",
+                "diagnostic_certainty",
+                "acuity",
+                "plausibly_explains_indication",
+                "report_evidence_quote",
+                "indication_evidence_quote",
+                "source_report_keys"
+              ],
+              "properties": {
+                "normalized_diagnosis": {"type": "string"},
+                "diagnostic_category": {
+                  "type": "string",
+                  "enum": [
+                    "pulmonary_vascular_thromboembolic",
+                    "pulmonary_infection_aspiration",
+                    "other_pulmonary_pleural_airway",
+                    "cardiac_pericardial",
+                    "gastrointestinal_inflammatory",
+                    "gastrointestinal_obstructive_perforation",
+                    "hepatobiliary_pancreatic",
+                    "genitourinary",
+                    "non_aas_arterial_venous_vascular",
+                    "hemorrhage_trauma",
+                    "malignancy_mass",
+                    "musculoskeletal",
+                    "other"
+                  ]
+                },
+                "cta_component": {
+                  "type": "string",
+                  "enum": ["chest", "abdomen_pelvis", "both"]
+                },
+                "finding_status": {
+                  "type": "string",
+                  "enum": ["present", "negated_absent", "uncertain"]
+                },
+                "diagnostic_certainty": {
+                  "type": "string",
+                  "enum": ["definite", "probable_likely", "possible_indeterminate"]
+                },
+                "acuity": {
+                  "type": "string",
+                  "enum": ["acute", "likely_acute", "chronic", "indeterminate"]
+                },
+                "plausibly_explains_indication": {
+                  "type": "string",
+                  "enum": ["yes", "no", "uncertain"]
+                },
+                "report_evidence_quote": {"type": "string"},
+                "indication_evidence_quote": {"type": "string"},
+                "source_report_keys": {
+                  "type": "array",
+                  "items": {"type": "string"}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

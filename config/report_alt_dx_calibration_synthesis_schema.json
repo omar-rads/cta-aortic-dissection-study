@@ -1,0 +1,10 @@
+{
+  "type":"object","additionalProperties":false,
+  "required":["generalizable","isolated","endpoint_neutral","limitations"],
+  "properties":{
+    "generalizable":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["mechanism","explanation","supporting_workbook_rows","minimum_general_rule","why_generalizable"],"properties":{"mechanism":{"type":"string"},"explanation":{"type":"string"},"supporting_workbook_rows":{"type":"array","items":{"type":"integer"}},"minimum_general_rule":{"type":"string"},"why_generalizable":{"type":"string"}}}},
+    "isolated":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["description","supporting_workbook_rows"],"properties":{"description":{"type":"string"},"supporting_workbook_rows":{"type":"array","items":{"type":"integer"}}}}},
+    "endpoint_neutral":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["description","supporting_workbook_rows"],"properties":{"description":{"type":"string"},"supporting_workbook_rows":{"type":"array","items":{"type":"integer"}}}}},
+    "limitations":{"type":"array","items":{"type":"string"}}
+  }
+}

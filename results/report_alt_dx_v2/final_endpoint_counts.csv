@@ -1,0 +1,7 @@
+"pass","analytic_role","endpoint","n","eligible_denominator","classifiable_denominator","percent_all_eligible","percent_classifiable","generating_script"
+1,"Primary","positive",80,1111,614,7.2007200720072,13.0293159609121,"R/21_report_alt_dx_v2_finalize.R"
+1,"Primary","negative",534,1111,614,48.0648064806481,86.9706840390879,"R/21_report_alt_dx_v2_finalize.R"
+1,"Primary","unclassifiable",497,1111,614,44.7344734473447,,"R/21_report_alt_dx_v2_finalize.R"
+2,"Reproducibility","positive",73,1111,617,6.57065706570657,11.8314424635332,"R/21_report_alt_dx_v2_finalize.R"
+2,"Reproducibility","negative",544,1111,617,48.964896489649,88.1685575364668,"R/21_report_alt_dx_v2_finalize.R"
+2,"Reproducibility","unclassifiable",494,1111,617,44.4644464446445,,"R/21_report_alt_dx_v2_finalize.R"

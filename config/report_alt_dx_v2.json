@@ -1,0 +1,20 @@
+{
+  "analysis_id":"report_alt_dx_v2",
+  "classification_status":"exploratory_secondary_post_hoc",
+  "endpoint_rule_version":"v1_unchanged",
+  "model_alias":"gpt-6-astra",
+  "reasoning_effort":"high",
+  "prompt_path":"prompts/report_alt_dx/v2/classifier_prompt.md",
+  "schema_path":"config/report_alt_dx_schema_v2.json",
+  "batch_size":12,
+  "max_batch_characters":85000,
+  "max_attempts":3,
+  "concurrent_batches":4,
+  "pass_2_shuffle_seed":20260924,
+  "primary_pass":1,
+  "reproducibility_pass":2,
+  "accepted_endpoint_acuity":["acute","likely_acute","indeterminate"],
+  "uncertain_reporting_label":"unclassifiable",
+  "additional_clinician_review":false,
+  "v3_authorized":false
+}
