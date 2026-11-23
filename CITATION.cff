@@ -1,8 +1,10 @@
 cff-version: 1.2.0
-message: "Cite the repository and exact Git commit used for this analysis."
+message: "Cite the software and the exact archived version. The commit identifies the reviewed analysis source."
 title: "CTA for suspected acute aortic syndrome: R analysis code and legacy source"
 type: software
-version: "2026-11-14-review"
+version: "r-analysis-2026.11.23"
+license: MIT
+commit: "af51a873798c90bce3f36645442f26293e7b4012"
 authors:
   - family-names: "Jean-Baptiste"
     given-names: "Omar"
